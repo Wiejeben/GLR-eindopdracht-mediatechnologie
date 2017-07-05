@@ -1,0 +1,40 @@
+Samenvatting:
+
+Alle pagina's login en registratie links
+ V 3 extra albums plaatsen op pagina shop en in voorpagina mini-slider
+ V 1 video toevoegen aan video's pagina
+
+Gebruikers
+ V Inloggen
+ V Registreren
+ V Beheren
+ V Mail validatie
+ V Tickets reserveren
+
+ V E-mail
+ V Wachtwoord
+ V NAW
+
+ V Inzicht in zijn reserveringen
+
+Programma's
+ V Toevoegen
+ V Wijzigen
+ V Verwijderen
+
+ V Dag
+ V Starttijd
+ V Artiestnaam
+ V Omschrijving
+
+Ticket's
+ V Bevat login en registratieformulieren
+ V Kan ticket reserveren
+
+Nieuws
+ V Toevoegen
+ V Wijzigen
+ V Verwijderen
+
+ V HTML tekst
+ V Aanmaakdatum
