@@ -45,20 +45,13 @@ class Event
 		// Insert user
 		$user = DB::prepare('INSERT INTO `' . self::$table . '` (`title`, `artist`, `description`, `ticket_id`, `time`) VALUES(?, ?, ?, ?, ?)');
 		
-		$insert = $user->execute([
+		return $user->execute([
 			$title,
 			$artist,
 			$description,
 			$ticket_id,
 			$time,
 		]);
-
-		if($insert)
-		{
-			return true;
-		}
-		
-		return false;
 	}
 
 	/**
@@ -75,7 +68,7 @@ class Event
 		// Insert user
 		$user = DB::prepare('UPDATE `' . self::$table . '` SET `title` = ?, `artist` = ?, `description` = ?, `ticket_id` = ?, `time` = ? WHERE `id` = ?');
 		
-		$insert = $user->execute([
+		return $user->execute([
 			$title,
 			$artist,
 			$description,
@@ -83,13 +76,6 @@ class Event
 			$time,
 			$id,
 		]);
-
-		if($insert)
-		{
-			return true;
-		}
-		
-		return false;
 	}
 
 	/**
